@@ -10,5 +10,6 @@ public class App {
 
 		HelloWorld obj = (HelloWorld) context.getBean("helloBean");
 		obj.printHello();
+		System.out.println("Thái Bình Nhiên");
 	}
 }
